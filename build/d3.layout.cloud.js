@@ -115,14 +115,10 @@ module.exports = function() {
       dx = ~~dxdy[0];
       dy = ~~dxdy[1];
       
-      //console.log("dx: " + dx + ", dy: " + dy + ", maxDelta: " + maxDelta);
-      
       if (Math.min(Math.abs(dx), Math.abs(dy)) >= maxDelta) break;
 
       tag.x = startX + dx;
       tag.y = startY + dy;
-      
-      //console.log("tag.x: " + tag.x + ", tag.y: " + tag.y);
 
       if (tag.x + tag.x0 < 0 || tag.y + tag.y0 < 0 ||
           tag.x + tag.x1 > size[0] || tag.y + tag.y1 > size[1])
