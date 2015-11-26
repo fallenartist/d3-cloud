@@ -115,7 +115,7 @@ module.exports = function() {
       dx = ~~dxdy[0];
       dy = ~~dxdy[1];
       
-      console.log("dx: " + dx + ", dy: " + dy + ", maxDelta: " + maxDelta);
+      //console.log("dx: " + dx + ", dy: " + dy + ", maxDelta: " + maxDelta);
       
       if (Math.min(Math.abs(dx), Math.abs(dy)) >= maxDelta) break;
 
