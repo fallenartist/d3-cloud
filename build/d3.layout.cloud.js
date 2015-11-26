@@ -122,7 +122,7 @@ module.exports = function() {
       tag.x = startX + dx;
       tag.y = startY + dy;
       
-      console.log("tag.x: " + tag.x + ", tag.y: " + tag.y);
+      //console.log("tag.x: " + tag.x + ", tag.y: " + tag.y);
 
       if (tag.x + tag.x0 < 0 || tag.y + tag.y0 < 0 ||
           tag.x + tag.x1 > size[0] || tag.y + tag.y1 > size[1])
